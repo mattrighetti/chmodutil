@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,16 @@
 		C951B89226C831A200C625C9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B89126C831A200C625C9 /* Tests_macOS.swift */; };
 		C951B89426C831A200C625C9 /* chmodutilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B86B26C831A100C625C9 /* chmodutilApp.swift */; };
 		C951B89526C831A200C625C9 /* chmodutilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B86B26C831A100C625C9 /* chmodutilApp.swift */; };
-		C951B89626C831A200C625C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B86C26C831A100C625C9 /* ContentView.swift */; };
-		C951B89726C831A200C625C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B86C26C831A100C625C9 /* ContentView.swift */; };
 		C951B89826C831A200C625C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C951B86D26C831A100C625C9 /* Assets.xcassets */; };
 		C951B89926C831A200C625C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C951B86D26C831A100C625C9 /* Assets.xcassets */; };
+		C951B8A926C831CF00C625C9 /* chmod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8A826C831CF00C625C9 /* chmod.swift */; };
+		C951B8AA26C831CF00C625C9 /* chmod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8A826C831CF00C625C9 /* chmod.swift */; };
+		C951B8AE26C85EE800C625C9 /* RwxToIntView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AD26C85EE800C625C9 /* RwxToIntView_macOS.swift */; };
+		C951B8B026C85F3600C625C9 /* TextRwx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AF26C85F3600C625C9 /* TextRwx.swift */; };
+		C951B8B126C85F3600C625C9 /* TextRwx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AF26C85F3600C625C9 /* TextRwx.swift */; };
+		C951B8B326C85F6000C625C9 /* RwxToIntView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8B226C85F6000C625C9 /* RwxToIntView_iOS.swift */; };
+		C951B8B626C86A5400C625C9 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = C951B8B526C86A5400C625C9 /* PopupView */; };
+		C951B8B826C86C2600C625C9 /* InfoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8B726C86C2600C625C9 /* InfoPopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		C951B86B26C831A100C625C9 /* chmodutilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chmodutilApp.swift; sourceTree = "<group>"; };
-		C951B86C26C831A100C625C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C951B86D26C831A100C625C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C951B87226C831A100C625C9 /* chmodutil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chmodutil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C951B87526C831A100C625C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		C951B88D26C831A200C625C9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C951B89126C831A200C625C9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C951B89326C831A200C625C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C951B8A826C831CF00C625C9 /* chmod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chmod.swift; sourceTree = "<group>"; };
+		C951B8AD26C85EE800C625C9 /* RwxToIntView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwxToIntView_macOS.swift; sourceTree = "<group>"; };
+		C951B8AF26C85F3600C625C9 /* TextRwx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRwx.swift; sourceTree = "<group>"; };
+		C951B8B226C85F6000C625C9 /* RwxToIntView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwxToIntView_iOS.swift; sourceTree = "<group>"; };
+		C951B8B726C86C2600C625C9 /* InfoPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C951B8B626C86A5400C625C9 /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +109,9 @@
 		C951B86A26C831A100C625C9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C951B8AC26C85A7600C625C9 /* View */,
+				C951B8AB26C85A4600C625C9 /* Utils */,
 				C951B86B26C831A100C625C9 /* chmodutilApp.swift */,
-				C951B86C26C831A100C625C9 /* ContentView.swift */,
 				C951B86D26C831A100C625C9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -120,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				C951B87526C831A100C625C9 /* Info.plist */,
+				C951B8B226C85F6000C625C9 /* RwxToIntView_iOS.swift */,
+				C951B8B726C86C2600C625C9 /* InfoPopupView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -129,6 +143,7 @@
 			children = (
 				C951B87C26C831A200C625C9 /* Info.plist */,
 				C951B87D26C831A200C625C9 /* macOS.entitlements */,
+				C951B8AD26C85EE800C625C9 /* RwxToIntView_macOS.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -151,6 +166,22 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		C951B8AB26C85A4600C625C9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C951B8A826C831CF00C625C9 /* chmod.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C951B8AC26C85A7600C625C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C951B8AF26C85F3600C625C9 /* TextRwx.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +198,9 @@
 			dependencies = (
 			);
 			name = "chmodutil (iOS)";
+			packageProductDependencies = (
+				C951B8B526C86A5400C625C9 /* PopupView */,
+			);
 			productName = "chmodutil (iOS)";
 			productReference = C951B87226C831A100C625C9 /* chmodutil.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +292,9 @@
 				Base,
 			);
 			mainGroup = C951B86526C831A100C625C9;
+			packageReferences = (
+				C951B8B426C86A5400C625C9 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = C951B87326C831A100C625C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,8 +345,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C951B89626C831A200C625C9 /* ContentView.swift in Sources */,
+				C951B8A926C831CF00C625C9 /* chmod.swift in Sources */,
+				C951B8B826C86C2600C625C9 /* InfoPopupView.swift in Sources */,
+				C951B8B026C85F3600C625C9 /* TextRwx.swift in Sources */,
 				C951B89426C831A200C625C9 /* chmodutilApp.swift in Sources */,
+				C951B8B326C85F6000C625C9 /* RwxToIntView_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C951B89726C831A200C625C9 /* ContentView.swift in Sources */,
+				C951B8B126C85F3600C625C9 /* TextRwx.swift in Sources */,
+				C951B8AA26C831CF00C625C9 /* chmod.swift in Sources */,
 				C951B89526C831A200C625C9 /* chmodutilApp.swift in Sources */,
+				C951B8AE26C85EE800C625C9 /* RwxToIntView_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +525,7 @@
 				PRODUCT_NAME = chmodutil;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -505,7 +547,7 @@
 				PRODUCT_NAME = chmodutil;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -696,6 +738,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C951B8B426C86A5400C625C9 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C951B8B526C86A5400C625C9 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C951B8B426C86A5400C625C9 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C951B86626C831A100C625C9 /* Project object */;
 }

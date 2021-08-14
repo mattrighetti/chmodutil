@@ -11,7 +11,11 @@ import SwiftUI
 struct chmodutilApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            #if os(macOS)
+            RwxToIntView_macOS()
+            #else
+            RwxToIntView_iOS()
+            #endif
         }
     }
 }
