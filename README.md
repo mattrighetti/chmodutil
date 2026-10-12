@@ -8,6 +8,6 @@ A simple iPhone, iPad and Mac app for converting read, write and execute permiss
 
 ## Development
 
-Open `chmodutil.xcodeproj` in Xcode 16 or later. Requires iOS 17 or macOS 14.
+Open `chmodutil.xcodeproj` in Xcode 16 or later. Requires iOS 17.6 or macOS 14.6.
 
 Run the core tests with `swift test`.

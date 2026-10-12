@@ -1,0 +1,32 @@
+[
+  {
+    "file": "iphone/01-permissions.png",
+    "source": "IMG_2298.PNG",
+    "description": "Home: permissions and explained common modes",
+    "width": 1179,
+    "height": 2556,
+    "alpha": false,
+    "sha256": "24c2a2b04f383ad9e0c8ecf33b422794074268c60ae0d724f0f278b369481784",
+    "user_supplied": true
+  },
+  {
+    "file": "iphone/02-manual.png",
+    "source": "IMG_2299.PNG",
+    "description": "Terminal-style manual index",
+    "width": 1179,
+    "height": 2556,
+    "alpha": false,
+    "sha256": "4372917c0b20961b4f91c15a5784ccd6e58d306265860b05f779a0abf9799dff",
+    "user_supplied": true
+  },
+  {
+    "file": "iphone/03-basics.png",
+    "source": "IMG_2300.PNG",
+    "description": "Basics: owner, group and others",
+    "width": 1179,
+    "height": 2556,
+    "alpha": false,
+    "sha256": "6759e4d54376a3ff9b7acb74eeaf20c415124498ac3ca55760e2e08a98a494a1",
+    "user_supplied": true
+  }
+]

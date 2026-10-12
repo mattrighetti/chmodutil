@@ -1,36 +1,40 @@
-# App Store update assets
+# iPhone App Store update assets
 
-The icons and release notes are prepared. Add user-supplied screenshots to the
-platform folders before uploading. No screen-capture automation is included.
+## Designed App Store page
 
-## Screenshots
+Use **`chmodutil-app-store-page-flat.zip`** for the new framed screenshots with
+marketing headlines, branding and uniform solid charcoal backgrounds. The final PNGs are in `iphone-framed/`.
+See `APP-STORE-PAGE.md` for the upload order and details.
 
-Use plain screenshots of the current app, without device frames or marketing
-headlines. Suggested upload order:
+## Original screenshots: iPhone
+
+The three screenshots are user-supplied originals, copied without cropping,
+resizing, recoloring or status-bar changes. All are **1179 × 2556**, portrait PNGs
+with no alpha channel.
+
+Upload the files from `iphone/` in this order to the **iPhone with Dynamic Island
+(medium display)** screenshot slot:
 
 1. `01-permissions.png` — home, showing rwx controls and explained common modes.
 2. `02-manual.png` — the terminal-style documentation index.
-3. `03-remember-rwx.png` — the 4–2–1 memory aid.
-4. `04-cheat-sheet.png` — the eight permission patterns.
+3. `03-basics.png` — the guide to owner, group and others.
 
-| Folder | Upload slot | Suggested dimensions |
-| --- | --- | --- |
-| `iphone/` | iPhone with Dynamic Island, medium display | 1206 × 2622, portrait |
-| `ipad/` | iPad 13-inch | 2064 × 2752, portrait |
-| `macos/` | Mac | 2560 × 1600, landscape |
+These dimensions are accepted by
+[Apple’s screenshot specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications),
+checked on 12 October 2026. `screenshots.json` records the original filenames,
+dimensions and SHA-256 checksums.
 
-These are accepted dimensions, not the only choices. Supply original PNG or JPEG
-files; screenshot uploads must have no alpha channel. Use the same orientation
-and dimensions within each device set. Sizes were checked on 12 October 2026
-against [Apple’s screenshot specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications).
+This package covers the iPhone listing only.
 
 ## Icon
 
-`icons/ios-1024.png` and `icons/macos-1024.png` contain the new rwx artwork.
-The app targets already use these icons. The App Store icon comes from the
+`icons/ios-1024.png` contains the new rwx artwork.
+The iOS app target already uses this icon. The App Store icon comes from the
 uploaded app build; these copies are included for convenient reference.
 
 ## Update text
 
 Paste `whats-new.txt` into the update’s “What’s New” field. It has no version
 number, so it can be used with the version you select in App Store Connect.
+
+The archive `chmodutil-store-assets.zip` contains this complete folder.

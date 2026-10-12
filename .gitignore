@@ -4,3 +4,8 @@ DerivedData/
 *.xcuserstate
 xcuserdata/
 .swiftpm/
+
+# Generated store archives and their extracted copies
+/chmodutil-*.zip
+/chmodutil-app-store-page-flat/
+/chmodutil-iphone-original-screenshots/

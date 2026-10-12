@@ -1,0 +1,9 @@
+{
+  "id" : "9c35f302-4797-4db1-a8e2-05ebfb1af59f",
+  "targets" : [
+    {
+      "id" : "79960bff-a48a-4bfb-b489-3cf3d45726d5",
+      "name" : "chmodutil (iOS)"
+    }
+  ]
+}

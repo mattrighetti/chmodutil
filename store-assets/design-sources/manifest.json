@@ -1,0 +1,32 @@
+[
+  {
+    "file": "iphone/01-permissions.png",
+    "source": "IMG_2298.PNG",
+    "width": 1179,
+    "height": 2556,
+    "alpha": false,
+    "background": "#181818",
+    "composition": "native Swift/AppKit flat export; imagegen concept",
+    "sha256": "ae51f17d2197fcfdff6ea32653ba0124757c9be04efbec70be2d4a7c9013d778"
+  },
+  {
+    "file": "iphone/02-manual.png",
+    "source": "IMG_2299.PNG",
+    "width": 1179,
+    "height": 2556,
+    "alpha": false,
+    "background": "#181818",
+    "composition": "native Swift/AppKit flat export; imagegen concept",
+    "sha256": "0c897cde7b137e4d1c53f5d22da9b254e5706581b40841e36b701b10ccacbd55"
+  },
+  {
+    "file": "iphone/03-basics.png",
+    "source": "IMG_2300.PNG",
+    "width": 1179,
+    "height": 2556,
+    "alpha": false,
+    "background": "#181818",
+    "composition": "native Swift/AppKit flat export; imagegen concept",
+    "sha256": "fa8c2c11cff5f6952353928f3386a5e62339a310b908fd0c43cc419990463f09"
+  }
+]
