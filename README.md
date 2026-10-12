@@ -1,14 +1,13 @@
 # chmod util
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/16304728/129462946-98cf9d43-42d5-4aad-bef3-716ca615f1ef.png" height="300px">
+  <img src="Shared/Assets.xcassets/AppIcon.appiconset/ios-1024.png" alt="chmod util icon" width="160">
 </p>
 
-Simple app that will translate read, write, execute permissions for `chmod` and unix systems
+A simple iPhone, iPad and Mac app for converting read, write and execute permissions to `chmod` values, with a built-in permissions guide.
 
-## Screenshots
+## Development
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/16304728/129462963-f3db0d13-3477-4e4f-b308-68a61b93dff2.png" height="500px">
-  <img src="https://user-images.githubusercontent.com/16304728/129462965-6b33025b-16f1-48ac-844d-a08f6495681b.png" height="500px">
-</p>
+Open `chmodutil.xcodeproj` in Xcode 16 or later. Requires iOS 17 or macOS 14.
+
+Run the core tests with `swift test`.

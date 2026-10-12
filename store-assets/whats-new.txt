@@ -1,0 +1,6 @@
+A refreshed chmod util, with a cleaner interface and a new rwx icon.
+
+• Toggle permissions for the owner, group and others.
+• Choose common modes with clear explanations.
+• Learn rwx with a terminal-style guide, the 4–2–1 memory aid and a permission cheat sheet.
+• Updated support for iPhone, iPad and Mac.

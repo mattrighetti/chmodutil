@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00000000000000000000001 /* PermissionsGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* PermissionsGuide.swift */; };
+		A00000000000000000000002 /* PermissionsGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* PermissionsGuide.swift */; };
 		C951B88726C831A200C625C9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B88626C831A200C625C9 /* Tests_iOS.swift */; };
 		C951B89226C831A200C625C9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B89126C831A200C625C9 /* Tests_macOS.swift */; };
 		C951B89426C831A200C625C9 /* chmodutilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B86B26C831A100C625C9 /* chmodutilApp.swift */; };
@@ -15,12 +17,8 @@
 		C951B89926C831A200C625C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C951B86D26C831A100C625C9 /* Assets.xcassets */; };
 		C951B8A926C831CF00C625C9 /* chmod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8A826C831CF00C625C9 /* chmod.swift */; };
 		C951B8AA26C831CF00C625C9 /* chmod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8A826C831CF00C625C9 /* chmod.swift */; };
-		C951B8AE26C85EE800C625C9 /* RwxToIntView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AD26C85EE800C625C9 /* RwxToIntView_macOS.swift */; };
-		C951B8B026C85F3600C625C9 /* TextRwx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AF26C85F3600C625C9 /* TextRwx.swift */; };
-		C951B8B126C85F3600C625C9 /* TextRwx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AF26C85F3600C625C9 /* TextRwx.swift */; };
-		C951B8B326C85F6000C625C9 /* RwxToIntView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8B226C85F6000C625C9 /* RwxToIntView_iOS.swift */; };
-		C951B8B626C86A5400C625C9 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = C951B8B526C86A5400C625C9 /* PopupView */; };
-		C951B8B826C86C2600C625C9 /* InfoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8B726C86C2600C625C9 /* InfoPopupView.swift */; };
+		C951B8B026C85F3600C625C9 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AF26C85F3600C625C9 /* PermissionsView.swift */; };
+		C951B8B126C85F3600C625C9 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951B8AF26C85F3600C625C9 /* PermissionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A00000000000000000000003 /* PermissionsGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsGuide.swift; sourceTree = "<group>"; };
 		C951B86B26C831A100C625C9 /* chmodutilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chmodutilApp.swift; sourceTree = "<group>"; };
 		C951B86D26C831A100C625C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C951B87226C831A100C625C9 /* chmodutil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chmodutil.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,10 +54,7 @@
 		C951B89126C831A200C625C9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C951B89326C831A200C625C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C951B8A826C831CF00C625C9 /* chmod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chmod.swift; sourceTree = "<group>"; };
-		C951B8AD26C85EE800C625C9 /* RwxToIntView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwxToIntView_macOS.swift; sourceTree = "<group>"; };
-		C951B8AF26C85F3600C625C9 /* TextRwx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRwx.swift; sourceTree = "<group>"; };
-		C951B8B226C85F6000C625C9 /* RwxToIntView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwxToIntView_iOS.swift; sourceTree = "<group>"; };
-		C951B8B726C86C2600C625C9 /* InfoPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPopupView.swift; sourceTree = "<group>"; };
+		C951B8AF26C85F3600C625C9 /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C951B8B626C86A5400C625C9 /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				C951B87526C831A100C625C9 /* Info.plist */,
-				C951B8B226C85F6000C625C9 /* RwxToIntView_iOS.swift */,
-				C951B8B726C86C2600C625C9 /* InfoPopupView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -143,7 +136,6 @@
 			children = (
 				C951B87C26C831A200C625C9 /* Info.plist */,
 				C951B87D26C831A200C625C9 /* macOS.entitlements */,
-				C951B8AD26C85EE800C625C9 /* RwxToIntView_macOS.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -177,7 +169,8 @@
 		C951B8AC26C85A7600C625C9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C951B8AF26C85F3600C625C9 /* TextRwx.swift */,
+				C951B8AF26C85F3600C625C9 /* PermissionsView.swift */,
+				A00000000000000000000003 /* PermissionsGuide.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,7 +192,6 @@
 			);
 			name = "chmodutil (iOS)";
 			packageProductDependencies = (
-				C951B8B526C86A5400C625C9 /* PopupView */,
 			);
 			productName = "chmodutil (iOS)";
 			productReference = C951B87226C831A100C625C9 /* chmodutil.app */;
@@ -264,8 +256,9 @@
 		C951B86626C831A100C625C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					C951B87126C831A100C625C9 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -293,7 +286,6 @@
 			);
 			mainGroup = C951B86526C831A100C625C9;
 			packageReferences = (
-				C951B8B426C86A5400C625C9 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = C951B87326C831A100C625C9 /* Products */;
 			projectDirPath = "";
@@ -346,10 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C951B8A926C831CF00C625C9 /* chmod.swift in Sources */,
-				C951B8B826C86C2600C625C9 /* InfoPopupView.swift in Sources */,
-				C951B8B026C85F3600C625C9 /* TextRwx.swift in Sources */,
+				C951B8B026C85F3600C625C9 /* PermissionsView.swift in Sources */,
+				A00000000000000000000001 /* PermissionsGuide.swift in Sources */,
 				C951B89426C831A200C625C9 /* chmodutilApp.swift in Sources */,
-				C951B8B326C85F6000C625C9 /* RwxToIntView_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,10 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C951B8B126C85F3600C625C9 /* TextRwx.swift in Sources */,
+				C951B8B126C85F3600C625C9 /* PermissionsView.swift in Sources */,
+				A00000000000000000000002 /* PermissionsGuide.swift in Sources */,
 				C951B8AA26C831CF00C625C9 /* chmod.swift in Sources */,
 				C951B89526C831A200C625C9 /* chmodutilApp.swift in Sources */,
-				C951B8AE26C85EE800C625C9 /* RwxToIntView_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,9 +422,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H89RFW5UZ6;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -450,6 +445,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -459,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -489,9 +486,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H89RFW5UZ6;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -502,6 +502,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -513,10 +514,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,8 +525,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattrighetti.chmodutil;
 				PRODUCT_NAME = chmodutil;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -535,10 +536,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,8 +547,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattrighetti.chmodutil;
 				PRODUCT_NAME = chmodutil;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -560,19 +561,20 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattrighetti.chmodutil;
 				PRODUCT_NAME = chmodutil;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -584,30 +586,29 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattrighetti.chmodutil;
 				PRODUCT_NAME = chmodutil;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
 		C951B8A326C831A200C625C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,7 +617,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrighetti.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "chmodutil (iOS)";
 			};
@@ -625,11 +626,9 @@
 		C951B8A426C831A200C625C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrighetti.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "chmodutil (iOS)";
 				VALIDATE_PRODUCT = YES;
@@ -648,21 +647,20 @@
 		C951B8A626C831A200C625C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = "Tests macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrighetti.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TEST_TARGET_NAME = "chmodutil (macOS)";
 			};
 			name = Debug;
@@ -670,21 +668,20 @@
 		C951B8A726C831A200C625C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = H89RFW5UZ6;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = "Tests macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrighetti.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TEST_TARGET_NAME = "chmodutil (macOS)";
 			};
 			name = Release;
@@ -738,25 +735,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		C951B8B426C86A5400C625C9 /* XCRemoteSwiftPackageReference "PopupView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/exyte/PopupView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		C951B8B526C86A5400C625C9 /* PopupView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C951B8B426C86A5400C625C9 /* XCRemoteSwiftPackageReference "PopupView" */;
-			productName = PopupView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C951B86626C831A100C625C9 /* Project object */;
 }

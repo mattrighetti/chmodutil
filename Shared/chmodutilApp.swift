@@ -1,21 +1,16 @@
-//
-//  chmodutilApp.swift
-//  Shared
-//
-//  Created by Mattia Righetti on 14/08/21.
-//
-
 import SwiftUI
 
 @main
 struct chmodutilApp: App {
     var body: some Scene {
         WindowGroup {
-            #if os(macOS)
-            RwxToIntView_macOS()
-            #else
-            RwxToIntView_iOS()
-            #endif
+            PermissionsView()
+                #if os(macOS)
+                .frame(minWidth: 340, minHeight: 340)
+                #endif
         }
+        #if os(macOS)
+        .defaultSize(width: 420, height: 380)
+        #endif
     }
 }
